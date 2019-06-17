@@ -1,0 +1,50 @@
+.dev_process{
+
+    text-align: center;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, .15);
+    font-weight: 800;
+    color: #640178;
+}
+
+.consult{
+  color:#7d4ac7;
+}
+.consult:hover{
+  color:#a733bb;
+}
+
+.dev_icon{
+	
+	width:30%;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+#ml_back{
+	background-color:#a733bb;
+}
+
+
+#zoomin:hover {
+            -webkit-transition: width 3s;
+           
+  -webkit-transform: rotateY(150deg); /* Safari */
+  transform: rotateY(170deg); /* Standard syntax */
+      transition: all 3s ease;
+}
+
